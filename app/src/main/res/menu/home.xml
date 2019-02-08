@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="anonymous.bloodonation.Home">
+    <item android:id="@+id/action_notif_on" android:title="ON"
+        android:icon="@drawable/notif"
+        android:orderInCategory="20"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="9999"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_about_us" android:title="About"
+        android:orderInCategory="9999"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_logout" android:title="Logout"
+        android:orderInCategory="9999"
+        android:showAsAction="never" />
+</menu>
